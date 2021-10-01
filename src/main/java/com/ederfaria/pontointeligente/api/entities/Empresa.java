@@ -7,4 +7,7 @@ package com.ederfaria.pontointeligente.api.entities;
 //@Table(name = "empresa")
 public class Empresa {
 
+
+    
+
 }
