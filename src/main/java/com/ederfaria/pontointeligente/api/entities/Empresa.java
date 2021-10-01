@@ -8,6 +8,4 @@ package com.ederfaria.pontointeligente.api.entities;
 public class Empresa {
 
 
-    
-
 }
