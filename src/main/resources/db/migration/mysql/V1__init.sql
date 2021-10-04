@@ -1,4 +1,6 @@
 
+
+
 CREATE TABLE `empresa`(
     `id` BIGINT(255) NOT NULL,
     `cnpj` VARCHAR(255) NOT NULL,

@@ -6,3 +6,6 @@
 
 Application Name: ${project.name}
 Application Version: ${application.version}
+
+Powered by Spring Boot ${spring-boot.version}
+
