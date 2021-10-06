@@ -30,7 +30,6 @@ public class AuthenticatorController {
         Response<EmpresaDto> response = new Response<>();
 //        service.persistir(entity.toEntity());
 //        response.setData(entity);
-//
 //        validaDto(entity, result);
 //        if (result.hasErrors()) {
 //            result.getAllErrors().forEach(e->response.getErrors().add(e.getDefaultMessage()));
