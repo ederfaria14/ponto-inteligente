@@ -7,12 +7,8 @@ import java.io.Serializable;
 @Table(name = "empresa")
 public class Empresa implements Serializable {
 
-//    private static final long serialVersionUID = 3960436649365666213L;
-
     @Id
-//    @SequenceGenerator(name= "EMPRESA_SEQUENCE", sequenceName = "EMPRESA_SEQUENCE_ID", initialValue=1, allocationSize = 1)
-//    @GeneratedValue(strategy=GenerationType.AUTO, generator="EMPRESA_SEQUENCE")
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String razaoSocial;
     private String cnpj;
@@ -49,4 +45,6 @@ public class Empresa implements Serializable {
                 ", cnpj='" + cnpj + '\'' +
                 '}';
     }
+
+
 }
